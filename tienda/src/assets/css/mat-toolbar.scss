@@ -1,0 +1,21 @@
+.mat-toolbar-custom {
+    background-color: #690000 !important;
+    color: white;
+}
+
+@media (min-width: 769px) {
+    .btn-menu {
+        display: none !important;
+    }
+}
+
+.avatar-usuario {
+    width: 40px;
+    height: 40px;
+}
+
+.nombre-usuario {
+    font-size: 13px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+.mat-side-nav-custom {
+    width: 280px !important;
+    background-color: #ebebeb !important;
+}
+
+.mat-side-nav-container-custom {
+    background-color: #ebebeb !important;
+}
+
+@media (min-width: 768px) {
+    .mat-side-nav-custom {
+        border: none !important;
+    }
+}

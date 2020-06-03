@@ -1,0 +1,22 @@
+<mat-sidenav-container class="mat-side-nav-container-custom" style="height: 100%;">
+
+
+    <mat-sidenav [(opened)]="menuEsAbierto" #sidenav [mode]="modo" class="mat-side-nav-custom">
+        <mat-toolbar class="mat-toolbar-custom">
+            MI APLICACIÓN
+        </mat-toolbar>
+        <div style="width: 100%;">
+            menu
+        </div>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <mat-toolbar class="mat-toolbar-custom">
+            <button class="btn-menu" mat-icon-button matTooltip="Menú" aria-label="Botón Menu" (click)="sidenav.toggle()">
+                <mat-icon aria-hidden="false" aria-label="Ícono Menú">menu</mat-icon>
+            </button>
+            <span style="flex: 1 1 auto;"></span>
+            <img class="avatar-usuario" src="assets/img/avatarUsuario.png" /> <span class="nombre-usuario"> Nombre de usuario</span>
+        </mat-toolbar>
+    </mat-sidenav-content>
+</mat-sidenav-container>
